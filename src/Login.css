@@ -1,0 +1,24 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .login > div > img {
+    object-fit: contain;
+    height: 150px;
+  }
+  
+  .login > button {
+    width: 300px;
+    background-color: #3ea4fb;
+    color: #eff2f5;
+    text-transform: inherit;
+    font-weight: 800;
+  }
+  
+  .login > button:hover {
+    background-color: gainsboro;
+    color: #3ea4fb;
+  }
